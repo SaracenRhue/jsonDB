@@ -12,6 +12,6 @@ async function pull(request) {
 }
 
 (async () => {
-  const result = await pull("db['test']");
+  const result = await pull("test.a");
   console.log(result);
 })();
